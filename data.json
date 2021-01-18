@@ -1,0 +1,13 @@
+[
+  {
+    "groupId": 1,
+    "groupLabel": "Group Name",
+    "links": [
+      {
+        "id": 1,
+        "label": "Link Label",
+        "url": "http://#0"
+      }
+    ]
+  }
+]

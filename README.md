@@ -6,5 +6,5 @@
 ![GitHub last commit (master)](https://img.shields.io/github/last-commit/hegedus-adam/shortcuts/master)
 ![GitHub contributors](https://img.shields.io/github/contributors/hegedus-adam/shortcuts)
 
-![webpack dependency version](https://img.shields.io/github/package-json/dependency-version/hegedus-adam/shortcuts/webpack)
-![typescript dependency version](https://img.shields.io/github/package-json/dependency-version/hegedus-adam/shortcuts/typescript)
+![webpack dependency version](https://img.shields.io/github/package-json/dependency-version/hegedus-adam/shortcuts/dev/webpack)
+![typescript dependency version](https://img.shields.io/github/package-json/dependency-version/hegedus-adam/shortcuts/dev/typescript)

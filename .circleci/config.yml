@@ -4,15 +4,15 @@ orbs:
   node: circleci/node@4.1
 
 jobs:
-  buil:
+  build:
     docker:
       - image: cimg/node:15.1
     steps:
       - checkout
       - node/install-packages
-      - run: npm run buil
+      - run: npm run build
 
 workflows:
-  tests: 
+  build: 
     jobs:
       - build

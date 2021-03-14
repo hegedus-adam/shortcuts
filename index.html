@@ -6,32 +6,33 @@
 </head>
 
 <body>
-  <script>
-    'use strict';
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function () {
-      if (this.readyState === 4 && this.status === 200) {
-        var d = JSON.parse(this.responseText);
-        d.forEach(function (g) {
-          var s = document.createElement('section');
-          var h = document.createElement('h2');
-          h.innerHTML = g.groupLabel;
-          var u = document.createElement('ul');
-          g?.links.forEach(function (l) {
-            var li = document.createElement('li');
-            var a = document.createElement('a');
-            a.href = l.url
-            a.innerHTML = l.label;
-            li.appendChild(a);
-            u.appendChild(li);
-          });
-          s.appendChild(h);
-          s.appendChild(u);
-          document.getElementsByTagName('body')[0].appendChild(s);
-        });
-      }
-    };
-    xmlhttp.open('get', './data.json', true);
-    xmlhttp.send();
-  </script>
+  <script src="src/index.ts"></script>
+<!--  <script>-->
+<!--    'use strict';-->
+<!--    var xmlhttp = new XMLHttpRequest();-->
+<!--    xmlhttp.onreadystatechange = function () {-->
+<!--      if (this.readyState === 4 && this.status === 200) {-->
+<!--        var d = JSON.parse(this.responseText);-->
+<!--        d.forEach(function (g) {-->
+<!--          var s = document.createElement('section');-->
+<!--          var h = document.createElement('h2');-->
+<!--          h.innerHTML = g.groupLabel;-->
+<!--          var u = document.createElement('ul');-->
+<!--          g?.links.forEach(function (l) {-->
+<!--            var li = document.createElement('li');-->
+<!--            var a = document.createElement('a');-->
+<!--            a.href = l.url-->
+<!--            a.innerHTML = l.label;-->
+<!--            li.appendChild(a);-->
+<!--            u.appendChild(li);-->
+<!--          });-->
+<!--          s.appendChild(h);-->
+<!--          s.appendChild(u);-->
+<!--          document.getElementsByTagName('body')[0].appendChild(s);-->
+<!--        });-->
+<!--      }-->
+<!--    };-->
+<!--    xmlhttp.open('get', './data.json', true);-->
+<!--    xmlhttp.send();-->
+<!--  </script>-->
 </body>

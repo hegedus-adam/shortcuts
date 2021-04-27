@@ -5,7 +5,8 @@
   "main": "src/index.ts",
   "scripts": {
     "build": "webpack",
-    "test": "jest --passWithNoTests"
+    "test": "jest",
+    "test:ci": "jest --coverage"
   },
   "repository": {
     "type": "git",

@@ -6,5 +6,15 @@
 ![GitHub last commit (master)](https://img.shields.io/github/last-commit/hegedus-adam/shortcuts/master)
 ![GitHub contributors](https://img.shields.io/github/contributors/hegedus-adam/shortcuts)
 
-![webpack dependency version](https://img.shields.io/github/package-json/dependency-version/hegedus-adam/shortcuts/dev/webpack)
+## Major dependencies
+
 ![typescript dependency version](https://img.shields.io/github/package-json/dependency-version/hegedus-adam/shortcuts/dev/typescript)
+
+![webpack dependency version](https://img.shields.io/github/package-json/dependency-version/hegedus-adam/shortcuts/dev/webpack)
+![ts-loader dependency version](https://img.shields.io/github/package-json/dependency-version/hegedus-adam/shortcuts/dev/ts-loader)
+
+![jest dependency version](https://img.shields.io/github/package-json/dependency-version/hegedus-adam/shortcuts/dev/jest)
+![ts-jest dependency version](https://img.shields.io/github/package-json/dependency-version/hegedus-adam/shortcuts/dev/ts-jest)
+
+![jsdom dependency version](https://img.shields.io/github/package-json/dependency-version/hegedus-adam/shortcuts/dev/jsdom)
+

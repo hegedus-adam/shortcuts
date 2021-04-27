@@ -19,7 +19,7 @@ jobs:
       - node/install-packages
       - run: |
           node --version
-          npm run test
+          npm run test:ci
 workflows:
   build:
     jobs:

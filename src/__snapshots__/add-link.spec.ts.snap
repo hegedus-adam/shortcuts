@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`addLink should append link 1`] = `
+<li>
+  <a
+    class="link"
+    href="https://somewhere.to"
+  >
+    Test Label
+  </a>
+</li>
+`;

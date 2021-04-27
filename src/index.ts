@@ -1,3 +1,4 @@
+import { addLink } from './add-link';
 import { IGroup, ILink } from './data';
 import * as data from './data/data.json';
 
@@ -15,19 +16,6 @@ function addGroup(group: IGroup) {
   section.appendChild(ul);
 
   return section;
-}
-
-function addLink(link: ILink) {
-  const li = document.createElement('li');
-
-  const anchor = document.createElement('a');
-  anchor.href = link.url;
-  anchor.innerHTML = link.label;
-  anchor.className = 'link';
-
-  li.appendChild(anchor);
-
-  return li;
 }
 
 function component() {

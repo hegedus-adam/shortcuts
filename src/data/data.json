@@ -1,0 +1,44 @@
+[
+  {
+    "groupId": 1,
+    "groupLabel": "Sample Group",
+    "links": [
+      {
+        "id": 1,
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Special:Random"
+      },
+      {
+        "id": 2,
+        "label": "Shortcuts",
+        "url": "https://github.com/hegedus-adam/shortcuts"
+      }
+    ]
+  },
+  {
+    "groupId": 2,
+    "groupLabel": "Search",
+    "links": [
+      {
+        "id": 1,
+        "label": "DuckDuckGo",
+        "url": "https://duckduckgo.com"
+      },
+      {
+        "id": 2,
+        "label": "Google",
+        "url": "https://www.google.com"
+      },
+      {
+        "id": 3,
+        "label": "Bing",
+        "url": "https://www.bing.comm"
+      },
+      {
+        "id": 4,
+        "label": "Yahoo",
+        "url": "https://search.yahoo.com"
+      }
+    ]
+  }
+]

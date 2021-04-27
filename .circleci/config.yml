@@ -1,30 +1,23 @@
 version: 2.1
-
 orbs:
   node: circleci/node@4.3.0
-
 jobs:
   build:
     docker:
-      - image: cimg/node:lts
+      - image: 'cimg/node:lts'
     steps:
       - checkout
       - node/install-packages
-      - run:
-        node --version
-        npm run build
+      - run: node --version npm run build
   test:
     docker:
-      - image: cimg/node:lts
+      - image: 'cimg/node:lts'
     steps:
       - checkout
       - node/install-packages
-      - run:
-        node --version
-        npm run test
-
+      - run: node --version npm run test
 workflows:
-  build: 
+  build:
     jobs:
       - test
       - build

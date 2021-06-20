@@ -4,7 +4,8 @@
   "description": "![GitHub repo size](https://img.shields.io/github/repo-size/hegedus-adam/shortcuts) ![GitHub last commit (master)](https://img.shields.io/github/last-commit/hegedus-adam/shortcuts/master) ![GitHub contributors](https://img.shields.io/github/contributors/hegedus-adam/shortcuts)",
   "main": "src/index.ts",
   "scripts": {
-    "build": "webpack",
+    "start": "webpack serve --mode=development",
+    "build": "webpack --mode=production",
     "test": "jest",
     "test:ci": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
@@ -31,6 +32,7 @@
     "ts-loader": "^9.1.1",
     "typescript": "^4.2.4",
     "webpack": "^5.36.0",
-    "webpack-cli": "^4.6.0"
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }

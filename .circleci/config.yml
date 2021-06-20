@@ -11,6 +11,15 @@ jobs:
       - run: |
           node --version
           npm run build
+  build-dev:
+    docker:
+      - image: 'cimg/node:lts'
+    steps:
+      - checkout
+      - node/install-packages
+      - run: |
+          node --version
+          npm run build:dev
   test:
     docker:
       - image: 'cimg/node:lts'
@@ -21,7 +30,10 @@ jobs:
           node --version
           npm run test:ci
 workflows:
-  build:
+  test:
     jobs:
       - test
+  build:
+    jobs:
+      - build-dev
       - build

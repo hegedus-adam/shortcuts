@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`addGroup should append link 1`] = `
+<section>
+  <h2>
+    Group Name
+  </h2>
+  <ul>
+    <li>
+      <a
+        class="link"
+        href="https://somewhere.to"
+      >
+        Test Label
+      </a>
+    </li>
+  </ul>
+</section>
+`;

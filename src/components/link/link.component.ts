@@ -1,6 +1,10 @@
-import { ILink } from './data';
+interface ILink {
+  id: number
+  label: string
+  url: string
+}
 
-export function addLink(link: ILink) {
+export function renderLink(link: ILink) {
   const li = document.createElement('li');
 
   const anchor = document.createElement('a');

@@ -1,11 +1,11 @@
-import { addLink } from './add-link';
+import { renderLink } from './link.component';
 import { JSDOM } from 'jsdom';
 
 const dom = new JSDOM();
 global.document = dom.window.document;
 global.window = dom.window;
 
-describe('addLink', () => {
+describe('renderLink', () => {
   it('should append link', () => {
     const link = {
       id: 0,
@@ -13,7 +13,7 @@ describe('addLink', () => {
       url: 'https://somewhere.to',
     };
 
-    const actual = addLink(link);
+    const actual = renderLink(link);
 
     expect(actual).toMatchSnapshot();
   });

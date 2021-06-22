@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`addLink should append link 1`] = `
+exports[`renderLink should append link 1`] = `
 <li>
   <a
     class="link"
